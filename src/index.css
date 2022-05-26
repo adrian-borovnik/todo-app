@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.grid-col-todo {
+		grid-template-columns: auto 1fr auto;
+	}
+}
